@@ -5,7 +5,7 @@ import { createClient } from '@supabase/supabase-js';
 import 'dotenv/config';
 
 const baseurl = process.env.NODE_ENV
-    ? 'daan-g0-backend.vercel.app'
+    ? 'https://daan-g0-backend.vercel.app/'
     : 'http://localhost:5172';
 
 
