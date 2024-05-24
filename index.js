@@ -17,7 +17,14 @@ connectDb();
 const app = express();
 const PORT = 5172;
 
-app.use(cors());
+const corsOptions = {
+    origin: 'https://daan-g0-frontend.vercel.app',
+    optionsSuccessStatus: 200,
+  };
+  
+  app.use(cors(corsOptions));
+
+
 app.use(express.static('public'));
 
 app.use(
