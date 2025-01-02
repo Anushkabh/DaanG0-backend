@@ -15,7 +15,8 @@
 3. Go to the sahyog-backend directory:
 
    ```sh
-   cd sahyog-backend
+   cd daango
+
    ```
 
 4. Install dependencies
