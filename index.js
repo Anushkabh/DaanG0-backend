@@ -14,6 +14,7 @@ import 'dotenv/config';
 
 connectDb();
 const app = express();
+const PORT = process.env.PORT || 5172;
 
 const allowedOrigins = [
   'https://daan-g0-frontend.vercel.app',
