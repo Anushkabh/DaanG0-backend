@@ -13,6 +13,7 @@ import { uploadRouter } from './src/utils/uploadthing.js';
 import 'dotenv/config';
 
 connectDb();
+const app = express();
 
 const allowedOrigins = [
   'https://daan-g0-frontend.vercel.app',
