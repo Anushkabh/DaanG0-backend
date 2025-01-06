@@ -14,13 +14,15 @@ import 'dotenv/config';
 
 connectDb();
 
-const app = express();
-const PORT = 5172;
+const allowedOrigins = [
+  'https://daan-g0-frontend.vercel.app',
+  'https://daan-g0-frontend-jndy.vercel.app'
+];
 
 const corsOptions = {
-    origin: 'https://daan-g0-frontend-jndy.vercel.app',
-    optionsSuccessStatus: 200,
-  };
+  origin: allowedOrigins,
+  optionsSuccessStatus: 200,
+};
   
   app.use(cors(corsOptions));
 
