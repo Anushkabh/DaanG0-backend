@@ -17,7 +17,7 @@ const app = express();
 const PORT = process.env.PORT || 5172;
 
 const allowedOrigins = [
-  'https://daan-g0-frontend.vercel.app',
+  'https://daan-go-frontend.vercel.app'
   'https://daan-g0-frontend-jndy.vercel.app'
 ];
 
